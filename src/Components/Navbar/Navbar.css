@@ -1,0 +1,76 @@
+.navbar-menu {
+  cursor: pointer;
+  align-self: center;
+}
+
+.navbar-menu:hover {
+  color: #3d0061;
+  border-bottom: 2px solid #3d0061;
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+
+.navbar-menu-container{
+    display: flex;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+.navbar-mobile-menu{
+    align-self: center;
+    cursor: pointer;
+    color: #3d0061;
+}
+
+.modal-dialog{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.modal-content{
+    border: none !important;
+}
+
+/* Mobile: up to 768px */
+@media (max-width: 576px) {
+    .navbar-menu-container{
+        display: none;
+    }
+
+    .menu{
+        position: fixed;
+        top: 49px;
+        right: 1px;
+        min-width: 250px;
+        max-width: 280px;
+    }
+}
+
+/* Tablet: 768px to 1024px */
+@media (min-width: 768px) and (max-width: 992px) {
+    .navbar-menu-container{
+        display: none;
+    }
+
+    .menu{
+        position: absolute;
+        top: 40px;
+        right: 10px;
+        min-width: 350px;
+        max-width: 500px;
+    }
+}
+
+/* Desktop: Minwidthy 992*/
+@media (min-width: 992px) {
+    .navbar-mobile-menu{
+        display: none;
+    }
+
+    .menu{
+        position: absolute;
+        top: 20px;
+        right: 110px;
+        min-width: 320px;
+    }
+}
