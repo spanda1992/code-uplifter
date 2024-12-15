@@ -1,3 +1,8 @@
+.navbar-container{
+    position: sticky;
+    top: 0;
+}
+
 .navbar-menu {
   cursor: pointer;
   align-self: center;
@@ -44,10 +49,25 @@
         min-width: 250px;
         max-width: 280px;
     }
+
+    .logo-code{
+        font-weight: 700;
+        font-size: 20px;
+        color: #6700A3;
+        line-height: 20px;
+    }
+
+    
+    .logo-uplifter{
+        font-weight: 300;
+        font-size: 16px;
+        color: #6700A3;
+        line-height: 16px
+    }
 }
 
 /* Tablet: 768px to 1024px */
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 576px) and (max-width: 992px) {
     .navbar-menu-container{
         display: none;
     }
@@ -58,6 +78,21 @@
         right: 10px;
         min-width: 350px;
         max-width: 500px;
+    }
+
+    .logo-code{
+        font-weight: 700;
+        font-size: 20px;
+        color: #6700A3;
+        line-height: 20px;
+    }
+
+    
+    .logo-uplifter{
+        font-weight: 300;
+        font-size: 16px;
+        color: #6700A3;
+        line-height: 16px
     }
 }
 
@@ -72,5 +107,19 @@
         top: 20px;
         right: 110px;
         min-width: 320px;
+    }
+    
+    .logo-code{
+        font-weight: 700;
+        font-size: 30px;
+        color: #6700A3;
+        line-height: 30px
+    }
+
+    .logo-uplifter{
+        font-weight: 300;
+        font-size: 22px;
+        color: #6700A3;
+        line-height: 16px
     }
 }

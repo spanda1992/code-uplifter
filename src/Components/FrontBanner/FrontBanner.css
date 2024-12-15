@@ -1,14 +1,17 @@
-.front-banner-container{
-    background-image: url('/public/codeuplifter-background-image_1.png');
-    background-size: cover;
-    height: 100vh;
-    background-repeat: no-repeat;
-}
-
 .frontpage-banner-form{
     min-width: 50%;
     border-radius: 20px;
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main-heading{
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
 }
 
 /* Mobile: up to 768px */
@@ -16,12 +19,13 @@
     .font-banner-content{
         display: flex;
         flex-direction: column;
-        
     }
-    .frontpage-banner-form{
 
+    .main-heading{
+        font-size: 20px
     }
 }
+
 
 
 /* Tablet: 768px to 1024px */
@@ -38,10 +42,16 @@
     .font-banner-content{
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        margin-top: 16px;
+        margin-bottom: 16px;
     }
     .frontpage-banner-form{
         min-width: 50%;
         border-radius: 20px;
         padding: 2rem;
+    }
+    .front-banner-heading-container{
+        padding-right: 2rem;
     }
 }
