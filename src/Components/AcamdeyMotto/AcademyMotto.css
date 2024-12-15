@@ -1,0 +1,79 @@
+.academymotto-container{
+    background-color: white;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    justify-content: center;
+}
+
+.card-container{
+    width: 27%;
+    border-radius: 8px;
+    min-height: 13rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+.card-1{
+    background-image: url('/public/Card1.png');
+}
+
+.card-2{
+    background-image: url('/public/Card2.png');
+}
+
+.card-3{
+    background-image: url('/public/Card3.png');
+}
+
+.card-4{
+    background-image: url('/public/Card4.png');
+}
+
+.card-5{
+    background-image: url('/public/Card5.png');
+}
+
+.card-6{
+    background-image: url('/public/Card6.png');
+}
+
+
+/*Desktop*/
+@media (min-width : 992px){
+    .academymotto-container{
+        flex-direction: row;
+    }
+}
+
+
+/* Mobile: up to 768px */
+@media (max-width: 576px) {
+    .academymotto-container{
+        flex-direction: column;
+    }
+    .card-container{
+       width: 95%;
+    }
+}
+
+
+/* Tablet: 768px to 1024px */
+@media (min-width: 768px) and (max-width: 992px) {
+    .academymotto-container{
+        flex-direction: row;
+    }
+
+    .card-container{
+        width: 27%;
+     }
+}
