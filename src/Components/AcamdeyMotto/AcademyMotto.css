@@ -7,6 +7,7 @@
     flex-wrap: wrap;
     border-radius: 1rem;
     justify-content: center;
+    box-shadow: #ACA6FF 0px 13px 27px -5px, #ACA6FF 0px 8px 16px -8px;
 }
 
 .card-container{
@@ -21,30 +22,37 @@
     color: white;
     font-weight: 500;
     text-align: center;
+    padding: 0 8px;
 }
 
 .card-1{
-    background-image: url('/public/Card1.png');
+    background-image: linear-gradient(to right, #1C001F , #9500A6);
+    box-shadow: #9500A6 0px 13px 27px -5px, #9500A6 0px 8px 16px -8px;
 }
 
 .card-2{
-    background-image: url('/public/Card2.png');
+    background-image: linear-gradient(to right, #260012 , #940047);
+    box-shadow: #940047 0px 13px 27px -5px, #940047 0px 8px 16px -8px;
 }
 
 .card-3{
-    background-image: url('/public/Card3.png');
+    background-image: linear-gradient(to right, #002119 , #007A5C);
+    box-shadow: #007A5C 0px 13px 27px -5px, #007A5C 0px 8px 16px -8px;
 }
 
 .card-4{
-    background-image: url('/public/Card4.png');
+    background-image: linear-gradient(to right, #140500 , #660007);
+    box-shadow: #660007 0px 13px 27px -5px, #660007 0px 8px 16px -8px;
 }
 
 .card-5{
-    background-image: url('/public/Card5.png');
+    background-image: linear-gradient(to right, #000724 , #00177D);
+    box-shadow: #00177D 0px 13px 27px -5px, #00177D 0px 8px 16px -8px;
 }
 
 .card-6{
-    background-image: url('/public/Card6.png');
+    background-image: linear-gradient(to right, #003E42 , #00C8D6);
+    box-shadow: #00C8D6 0px 13px 27px -5px, #00C8D6 0px 8px 16px -8px;
 }
 
 

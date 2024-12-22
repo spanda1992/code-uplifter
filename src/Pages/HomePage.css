@@ -1,7 +1,5 @@
 .homepage-container{
-    background-image: url('/public/codeuplifter-background-image_1.png');
-    background-size: contain;
-    background-repeat: no-repeat;
+    
 }
 
 @media (max-width: 576px){

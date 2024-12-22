@@ -67,7 +67,7 @@
 }
 
 /* Tablet: 768px to 1024px */
-@media (min-width: 576px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px) {
     .navbar-menu-container{
         display: none;
     }

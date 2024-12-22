@@ -1,0 +1,77 @@
+.program-features-heading{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    text-align: center;
+    line-break: normal;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+}
+
+.program-features-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.programs-features-cards{
+    border: 1px solid rgb(118, 118, 118);
+    border-radius: 10px;
+    padding: 1rem;
+    max-width: 23%;
+    display: flex;
+    min-height: 200px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.program-features-card-1{
+    background-image: linear-gradient(to right, #FFCCCC , #FFE8E8);
+    box-shadow: #FFE8E8 0px 13px 27px -5px, #FFE8E8 0px 8px 16px -8px;
+}
+
+.program-features-card-2{
+    background-image: linear-gradient(to right, #FFF0BA , #FFF7DB);
+    box-shadow: #FFF7DB 0px 13px 27px -5px, #FFF7DB 0px 8px 16px -8px;
+}
+
+.program-features-card-3{
+    background-image: linear-gradient(to right, #9EA2FF , #D1D3FF);
+    box-shadow: #D1D3FF 0px 13px 27px -5px, #D1D3FF 0px 8px 16px -8px;
+}
+
+.program-features-card-4{
+    background-image: linear-gradient(to right, #FFA8FC , #FFE3FE);
+    box-shadow: #FFE3FE 0px 13px 27px -5px, #FFE3FE 0px 8px 16px -8px;
+}
+
+.program-features-card-5{
+    background-image: linear-gradient(to right, #E3FFB5 , #F5FFE6);
+    box-shadow: #FFE8E8 0px 13px 27px -5px, #FFE8E8 0px 8px 16px -8px;
+}
+
+.program-features-card-6{
+    background-image: linear-gradient(to right, #B0FFED , #DEFFF7);
+    box-shadow: #DEFFF7 0px 13px 27px -5px, #DEFFF7 0px 8px 16px -8px;
+}
+
+/* Mobile: up to 768px */
+@media (max-width: 576px) {
+    .programs-features-cards{
+        min-width: 100%
+    }
+}
+
+/* Tablet: 768px to 1024px */
+@media (min-width: 768px) and (max-width: 992px) {
+    .programs-features-cards{
+        min-width: 45%
+    }
+}
+
+
+/* Desktop: Minwidthy 992*/
+@media (min-width: 992px) {
+}
+

@@ -12,13 +12,12 @@ const FrontBanner = () => {
                 <div className='font-banner-content'>
                     <div className='front-banner-heading-container'>
                         <div>
-                            <span className='main-heading'>
+                            <div className='main-heading my-2'>
                                 We Help You to pursue your Dream Career in IT
-                            </span>
-                            <br /> <br />
-                            <span style={{ fontWeight: 300, fontSize: '1rem', color: 'white' }}>
+                            </div>
+                            <div style={{ fontWeight: 300, fontSize: '1rem', color: 'white', textAlign:'center' }}>
                                 Based at Bhubaneswar. Come and explore with us !!
-                            </span>
+                            </div>
                         </div>
                         <div className='mt-4 mb-4'>
                             <button style={{width: '45%'}} className='btn btn-success me-2 py-2'>Call Us</button>
@@ -31,7 +30,7 @@ const FrontBanner = () => {
                     <div className='bg-white frontpage-banner-form my-2'>
                         <form>
                             <div className='d-flex justify-content-center'>
-                                <span style={{fontWeight:'700', fontSize:'16px'}}>Book For a Live Class !!</span>
+                                <span style={{fontWeight:'600', fontSize:'22px'}}>Book For a Live Class !!</span>
                             </div>
                             <div className="form-group mb-2">
                                 <label for="exampleInputEmail1">Name</label>

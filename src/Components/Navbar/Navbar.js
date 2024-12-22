@@ -15,13 +15,10 @@ const Navbar = () => {
                     <span className='logo-uplifter'>UPLIFTER</span>
                 </div>
                 <div className='navbar-menu-container'>
-                    <span className='mx-3 navbar-menu'>Curriculum</span>
-                    <span className='mx-3 navbar-menu'>Reviews</span>
-                    <span className='mx-3 navbar-menu'>Teaching</span>
-                    <span className='mx-3 navbar-menu'>Mentorship</span>
-                    <span className='mx-3 navbar-menu'>Community</span>
-                    <span className='mx-3 navbar-menu'>Careers</span>
-                    <span className='mx-3 navbar-menu'>FAQs</span>
+                    <a href='#features' style={{textDecoration:'none', color:'black'}} className='mx-3 navbar-menu'>Features</a>
+                    <a href="#curriculum" style={{textDecoration:'none', color:'black'}} className='mx-3 navbar-menu'>Curriculum</a>
+                    <a href="#reviews" style={{textDecoration:'none', color:'black'}} className='mx-3 navbar-menu'>Reviews</a>
+                    <a href="#contact" style={{textDecoration:'none', color:'black'}} className='mx-3 navbar-menu'>Contact Us</a>
                 </div>
                 <div className='navbar-mobile-menu' onClick={() => setShow(true)}>
                     <MdMenu size={25} />
@@ -42,13 +39,10 @@ const Navbar = () => {
                         </div>
                         <div className='px-2 my-4'>
                             <div className='d-flex flex-column'>
+                                <span className='mx-3 navbar-menu my-2 pb-1'>Features</span>
                                 <span className='mx-3 navbar-menu my-2 pb-1'>Curriculum</span>
                                 <span className='mx-3 navbar-menu my-2 pb-1'>Reviews</span>
-                                <span className='mx-3 navbar-menu my-2 pb-1'>Teaching</span>
-                                <span className='mx-3 navbar-menu my-2 pb-1'>Mentorship</span>
-                                <span className='mx-3 navbar-menu my-2 pb-1'>Community</span>
-                                <span className='mx-3 navbar-menu my-2 pb-1'>Careers</span>
-                                <span className='mx-3 navbar-menu my-2 pb-1'>FAQs</span>
+                                <span className='mx-3 navbar-menu my-2 pb-1'>Contact Us</span>
                             </div>
                         </div>
                     </div>

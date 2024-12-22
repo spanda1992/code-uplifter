@@ -1,0 +1,44 @@
+.review-container{
+    padding: 1rem;
+    margin: 1rem 0;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.review{
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 300;
+}
+.review-author{
+    text-align: end;
+}
+
+.review-heading {
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+
+/*Desktop*/
+@media (min-width : 992px){
+    
+}
+
+
+/* Mobile: up to 768px */
+@media (max-width: 576px) {
+    .review-container{
+        max-height: 300px;
+        overflow: hidden;
+    }
+
+}
+
+
+/* Tablet: 768px to 1024px */
+@media (min-width: 768px) and (max-width: 992px) {
+
+}

@@ -9,7 +9,7 @@ import { GrUserExpert } from "react-icons/gr";
 
 const AcademyMotto = () => {
     return (
-        <div className='container'>
+        <div className='container mb-3'>
             <div className='academymotto-container'>
                 <div className='card-1 card-container'>
                     <PiTreeStructureDuotone className='mb-3' size={45} />
@@ -25,7 +25,7 @@ const AcademyMotto = () => {
                 </div>
                 <div className='card-4 card-container'>
                     <AiFillCrown className='mb-3' size={45} />
-                    <span>100% Job Guarantee</span>
+                    <span>Job and Placement Oppertunity</span>
                 </div>
                 <div className='card-5 card-container'>
                     <MdSupportAgent className='mb-3' size={45} />
